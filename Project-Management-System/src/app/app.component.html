@@ -1,0 +1,14 @@
+
+  <mat-toolbar color="primary" class="fixed-header">
+    <mat-toolbar-row>
+      <h1>Project Management System</h1>
+      <div style="padding-right: 5px;">
+        <a mat-button  [routerLink]="'/users'"> Add User </a>
+        <a mat-button [routerLink]="'/projects'"> Add Project </a>
+        <a mat-button [routerLink]="'/addTask'"> Add Task </a>
+        <a mat-button [routerLink]="'/tasks'"> View Task </a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+<br>
+<router-outlet></router-outlet>
